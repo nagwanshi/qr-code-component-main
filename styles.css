@@ -1,0 +1,55 @@
+:root {
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-slate-500);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-slate-300);
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  height: 499px;
+  background-color: white;
+  padding: 1rem 1rem 2.5rem 1rem;
+  border-radius: 20px;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card-copy {
+  text-align: center;
+  width: 100%;
+  max-width: 288px;
+  height: 131px;
+  padding: 1rem;
+}
+
+.card-copy-title {
+  color: var(--color-slate-900);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
