@@ -12,7 +12,7 @@
 
 body {
   color: var(--color-slate-500);
-  font-size: 1rem;
+  font-size: 0.94rem;
   font-weight: 400;
   font-family: "Outfit", sans-serif;
 }
@@ -27,8 +27,8 @@ main {
 
 .card {
   width: 100%;
-  max-width: 320px;
-  height: 499px;
+  max-width: 20rem;
+  height: 31.2rem;
   background-color: white;
   padding: 1rem 1rem 2.5rem 1rem;
   border-radius: 20px;
@@ -42,8 +42,8 @@ main {
 .card-copy {
   text-align: center;
   width: 100%;
-  max-width: 288px;
-  height: 131px;
+  max-width: 18rem;
+  height: 8.19rem;
   padding: 1rem;
 }
 
